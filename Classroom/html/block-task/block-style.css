@@ -1,0 +1,370 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main-div{
+    background-color: deeppink;
+    width: 1800px;
+    height: 1000px;
+}
+
+header{
+    background-color: #f218ea;
+    width: 1800px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+#header-main-div{
+    background-color: white;
+    width: 1000px;
+    height: 150px;
+    margin-top: 20px;
+
+}
+#header-div1{
+    width: 500px;
+    height: 50px;
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 240px;
+}
+#header-div2{
+    width: 400px;
+    height: 50px;
+    background-color: red;
+    margin-left: 100px;
+    float: left;
+}
+#header-div3{
+    width: 400px;
+    height: 50px;
+    background-color: green;
+    float: left;
+}
+#div-body-main {
+    height: 200px;
+    width: 1800px;
+    background-color: black;
+   text-align: center;
+}
+
+p{
+    color: #f0f0f0;
+}
+#div-body-body{
+    display: flex;
+    justify-content: center;
+}
+#div-body1{
+    width: 300px;
+    height: 150px;
+    background-color: red;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+#div-body2{
+    width: 300px;
+    height: 150px;
+    background-color: orange;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+#div-body3{
+    width: 300px;
+    height: 150px;
+    background-color: pink;
+    margin-top: 20px;
+}
+#div-body4{
+    width: 300px;
+    height: 150px;
+    background-color: green;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#div-body1-1{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin-top: 20px;
+}
+#div-body1-2{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    margin-top: 20px;
+}
+#div-body1-3{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin-top: 20px;
+}
+#div-body2-main{
+    height: 120px;
+    width: 200px;
+    margin-top: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+#div-body2-1{
+    height: 90px;
+    width: 50px;
+    background-color: red;
+    margin-top: 10px;
+}
+#div-body2-2{
+    height: 90px;
+    width: 50px;
+    background-color: pink;
+    margin-top: 10px;
+}
+
+#div-body2-3{
+    height: 90px;
+    width: 50px;
+    background-color: green;
+    margin-top: 10px;
+}
+#div-body3-1{
+    width: 60px;
+    height: 90px;
+    background-color: green;
+    float: left;
+    margin-top: 20px;
+}
+#div-body3-2{
+    width: 60px;
+    height: 90px;
+    background-color: red;
+    float: right;
+    margin-top: 20px;
+}
+#div-body4-main{
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+#div-body4-1{
+    height: 80px;
+    width: 90px;
+    background-color: red;
+    margin-top: 10px;
+}
+#div-body4-2{
+    height: 80px;
+    width: 90px;
+    background-color: green;
+    margin-top: 10px;
+}
+
+#body2{
+    width: 1800px;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+}
+#body2-div1{
+    height: 400px;
+    width: 400px;
+    background-color: green;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+#body2-div2{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+#body2-div3{
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+#body2-div1-1{
+    height: 300px;
+    width: 350px;
+    background-color: orange;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+#body2-div1-2{
+    height: 200px;
+    width: 50%;
+    background-color: red;
+    margin-top: 100px;
+}
+#body2-div1-3{
+    height: 200px;
+    width: 50%;
+    background-color: pink;
+    margin-top: 100px;
+}
+#body2-div2-main1{
+    height: 200px;
+    width: 150px;
+    background-color: blue;
+    margin-top: 200px;
+
+}
+
+#body2-div2-main2{
+    height: 200px;
+    width: 150px;
+    background-color: orange;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+#body2-div2-main3{
+    height: 200px;
+    width: 150px;
+    background-color: green;
+    margin-top: 200px;
+}
+#body2-div2-div1{
+    height: 75px;
+    width: 100px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+#body2-div2-div2{
+    height: 75px;
+    width: 100px;
+    background-color: pink;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+#body2-div2-div1-1{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    margin-top: 15px;
+}
+#body2-div2-div2-2{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    margin-top: 10px;
+}
+#body2-div2-div2-3{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    margin-top: 10px;
+}
+#body2-div2-main2-1{
+    height: 150px;
+    width: 50px;
+    margin-top: 20px;
+    background-color: red;
+}
+#body2-div2-main2-2{
+    height: 100px;
+    width: 50px;
+    background-color: pink;
+    margin-top: 50px;
+}
+#body2-div3-1{
+    background-color: black;
+    height: 250px;
+    width: 150px;
+    margin-top: 120px;
+}
+#body2-div3-2{
+    background-color: orange;
+    height: 250px;
+    width: 150px;
+    margin-top: 90px;
+}
+#body2-div3-3{
+    background-color: pink;
+    height: 250px;
+    width: 150px;
+    margin-top: 20px;
+
+}
+#body2-div3-1-1{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+    margin-top: 50px;
+}
+#body2-div3-inside-1{
+    height: 100px;
+    width: 50px;
+    background-color: green;
+    float: left;
+    margin-top: 50px;
+}
+#body2-div3-inside-2{
+    height: 100px;
+    width: 50px;
+    background-color: red;
+    float: right;
+    margin-top: 50px;
+}
+
+#div-text1{
+    height: 20px;
+    width: 40px;
+    background-color: black;
+    float: left;
+    margin-top: 75px;
+}
+#div-text2{
+    height: 20px;
+    width: 40px;
+    background-color: black;
+    float: right;
+    margin-top: 50px;
+}
+#body2-div3-3-outer{
+    display: flex;
+    justify-content: center;
+}
+#body2-div3-3-insider-1{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    margin-top: 175px;
+}
+#body2-div3-3-insider-2{
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    margin-top: 175px;
+}
+
+
+
+
+

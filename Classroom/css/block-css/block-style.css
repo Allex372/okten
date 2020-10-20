@@ -1,0 +1,16 @@
+#main-div{
+    height: 1000px;
+    width: 1000px;
+    background-color: deeppink;
+}
+header{
+    background-color: #000;
+    height: 100px;
+    width: 100px;
+}
+
+#header-main-div{
+    background-color: deeppink;
+    width: 400px;
+    height: 400px;
+}
