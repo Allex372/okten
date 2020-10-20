@@ -1,0 +1,26 @@
+ul{
+	background-color: red;
+}
+
+h1, h2{ 
+	background-color: rgba(30, 123, 194, 1);
+	font-weight: normal; 
+}
+
+.text-setting{
+	font-weight: 100; 
+	color: silver;
+}
+
+#div-img1{
+	text-align: center;
+}
+
+#img2{
+	border:15px solid #00a8e1;  
+}
+
+#div-img2{
+	text-align: center;
+	padding: 100px;
+}

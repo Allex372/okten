@@ -1,0 +1,54 @@
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
+.rightimg  {
+    float: right; /* Выравнивание по правому краю  */
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+}
+
+.foto{
+    opacity: 0.5;
+}
+
+.foto:hover {
+    opacity: 1.0;
+}
+.leftSide{
+    margin-top: 80px;
+    background-color: aquamarine;
+    height: 100%;
+}
+.rightSide{
+}
+.scale {
+    transition: 1s; /* Время эффекта */
+}
+.scale:hover {
+    transform: scale(1.4); /* Увеличиваем масштаб */
+}
+aside {
+    background: #f0f0f0;
+    padding: 10px;
+    width: 200px;
+    float: left;
+}
+
+#aside_left{
+    background: #f0f0f0;
+    padding: 10px;
+    width: 290px;
+    float: right;
+}
+.first{
+    display: flex; 
+    justify-content: space-around;
+
+}
+
+h3{
+    margin-left: 87em;
+}
+#Table1{
+   text-align: center; 
+}
